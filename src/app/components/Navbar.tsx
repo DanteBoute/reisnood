@@ -1,43 +1,43 @@
 import Link from "next/link";
-import "./NavbarHome.css";
+import "./Navbar.css";
 
 const Navbar = () => {
   return (
     <>
       <div className="navbar">
         <div className="flex-1">
-          <a className="btn btn-ghost text-xl nav-link-home">Reisnood.be</a>
+          <a className="btn btn-ghost text-xl nav-link">Reisnood.be</a>
         </div>
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <Link href="/reistips" className="nav-link-home ">
+              <Link href="/reistips" className="nav-link ">
                 Reistips
               </Link>
             </li>
             <li>
-              <Link href="/uniekeAccomodaties" className="nav-link-home ">
+              <Link href="/uniekeAccomodaties" className="nav-link ">
                 Unieke Accomodaties
               </Link>
             </li>
             <li>
-              <Link href="/uniekeAccomodaties" className="nav-link-home ">
+              <Link href="/uniekeAccomodaties" className="nav-link ">
                 Samenwerken
               </Link>
             </li>
             <li>
-              <Link href="/uniekeAccomodaties" className="nav-link-home ">
+              <Link href="/uniekeAccomodaties" className="nav-link ">
                 Contact
               </Link>
             </li>
             <li>
-              <Link href="/blog" className="nav-link-home ">
+              <Link href="/blog" className="nav-link ">
                 Blog
               </Link>
             </li>
             <li>
               <details>
-                <summary className="nav-link-home ">Bestemmingen</summary>
+                <summary className="nav-link ">Bestemmingen</summary>
                 <ul className="p-2 rounded-t-none">
                   <li>
                     <p>Ijsland</p>

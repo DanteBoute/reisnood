@@ -5,7 +5,11 @@
     max-height: 400px;
     min-width: 200px;
     width: 20vw;
+    border-radius: 2%;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 20px;
+    background: transparent;
+    
 }
 .travelcard:hover {
     transform: scale(1.1);
@@ -19,10 +23,14 @@
     left: 0;
     margin: 20px;
     font-weight: bold;
+    color: white;
 }
 
 .travelcardsContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+.travelcardImage {
+    border-radius: 2%;
 }

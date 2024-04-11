@@ -1,0 +1,17 @@
+.blogTitle{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    width: 100%;
+    
+}
+.blogPageBannerContent {
+    position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+}
+.blogBannerButton {
+    left: 20px;
+}

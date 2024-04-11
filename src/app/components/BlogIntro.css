@@ -1,0 +1,12 @@
+.blogHead {
+    width: 70vw;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.blogTitel {
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+.blogIntro {
+    text-align: justify;
+}
