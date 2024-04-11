@@ -1,9 +1,13 @@
 .image-container {
-    max-width: 300px; /* Adjust max width as needed */
+    max-width: 300px;
+    min-height: 500px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    object-fit: cover;
+
   }
   
   .image-container:hover {
-    transform: scale(1.1); /* Increase scale on hover */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Increase shadow on hover */
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
   }
+  
