@@ -20,6 +20,16 @@ const Navbar = () => {
                         Unieke Accomodaties
                     </Link>
                 </li>
+                <li>
+                    <Link href="/uniekeAccomodaties"className='nav-link'>
+                        Samenwerken
+                    </Link>
+                </li>
+                <li>
+                    <Link href="/uniekeAccomodaties"className='nav-link'>
+                        Contact
+                    </Link>
+                </li>
       <li>
         <details>
           <summary className='nav-link'>

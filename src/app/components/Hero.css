@@ -1,6 +1,6 @@
 .image-container {
-    max-width: 300px;
-    min-height: 500px;
+    max-width: 260px;
+    min-height: 420px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     object-fit: cover;
 

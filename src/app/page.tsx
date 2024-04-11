@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main style={{ position: 'relative' }}>
       <Navbar />
-      <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: -1 }}>
+      <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100vh', zIndex: -1 }}>
         <Image src={bannerImage} layout="fill" objectFit="cover" alt="Banner" />
       </div>
       <Hero />
