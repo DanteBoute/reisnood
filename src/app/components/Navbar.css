@@ -1,0 +1,8 @@
+.nav-link {
+    color: white; /* Change the color to your desired color */
+    text-decoration: none; /* Remove underline */
+}
+
+.nav-link:hover {
+    color: white; /* Change the color on hover */
+}

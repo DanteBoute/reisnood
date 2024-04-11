@@ -1,13 +1,17 @@
 import Image from "next/image";
 import Link from "next/link";
-import ProductCard from "./components/ProductCard";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Hero from "./components/Hero";
+import bannerImage from "../../public/images/IMG_1190.jpg"
 
 export default function Home() {
   return (
     <main>
-      <h1>Hello World!</h1>
-      <Link href="/users">Users</Link>
-      <ProductCard />
+<div style={{backgroundImage: `url(${bannerImage.src})`, backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '100vh'}}>        <Navbar />
+        <Hero />
+      </div>
+      <Footer />
       </main>
   );
 }
