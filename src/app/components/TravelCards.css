@@ -1,0 +1,27 @@
+.travelcard {
+    position: relative;
+    min-height: 200px;
+    height: 350px;
+    max-height: 400px;
+    min-width: 200px;
+    width: 20vw;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.travelcard:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+.travelcardText {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 20px;
+}
+
+.travelcardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

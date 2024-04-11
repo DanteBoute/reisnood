@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Reistips = () => {
+const Contact = () => {
   return (
-    <div>Reistips</div>
+    <div>Contact</div>
   )
 }
 
-export default Reistips
+export default Contact

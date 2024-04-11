@@ -4,6 +4,8 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import bannerImage from "../../public/images/IMG_1974 kopie 5.png";
+import TravelCards from "./components/TravelCards";
+import TitelDivider from "./components/TitelDivider";
 
 export default function Home() {
   return (
@@ -13,6 +15,8 @@ export default function Home() {
         <Image src={bannerImage} layout="fill" objectFit="cover" alt="Banner" />
       </div>
       <Hero />
+      <TitelDivider />
+      <TravelCards />
       <Footer />
     </main>
   );
