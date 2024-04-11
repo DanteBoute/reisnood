@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import './Navbar.css';
+import './NavbarHome.css';
 
 const Navbar = () => {
     return (
@@ -11,28 +11,33 @@ const Navbar = () => {
   <div className="flex-none">
     <ul className="menu menu-horizontal px-1">
     <li>
-                    <Link href="/reistips"className='nav-link'>
+                    <Link href="/reistips"className='nav-link link-hover'>
                         Reistips
                     </Link>
                 </li>
                 <li>
-                    <Link href="/uniekeAccomodaties"className='nav-link'>
+                    <Link href="/uniekeAccomodaties"className='nav-link link-hover'>
                         Unieke Accomodaties
                     </Link>
                 </li>
                 <li>
-                    <Link href="/uniekeAccomodaties"className='nav-link'>
+                    <Link href="/uniekeAccomodaties"className='nav-link link-hover'>
                         Samenwerken
                     </Link>
                 </li>
                 <li>
-                    <Link href="/uniekeAccomodaties"className='nav-link'>
+                    <Link href="/uniekeAccomodaties"className='nav-link link-hover'>
                         Contact
+                    </Link>
+                </li>
+                <li>
+                    <Link href="/blog"className='nav-link link-hover'>
+                        Blog
                     </Link>
                 </li>
       <li>
         <details>
-          <summary className='nav-link'>
+          <summary className='nav-link link-hover'>
             Bestemmingen
           </summary>
           <ul className="p-2 rounded-t-none">
