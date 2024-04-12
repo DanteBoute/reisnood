@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import CollabBanner from "../components/CollabBanner";
 
 const Samenwerken = () => {
   return (
-    <div>Samenwerken</div>
-  )
-}
+    <>
+      <CollabBanner />
+    </>
+  );
+};
 
-export default Samenwerken
+export default Samenwerken;

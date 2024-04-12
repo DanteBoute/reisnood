@@ -2,14 +2,15 @@ import React from "react";
 import Image from "next/image";
 import "./CollabBanner.css";
 import Navbar from "./Navbar";
-import carrouselThree from "../../../public/images/Petra.jpg";
+import carrouselThree from "../../../public/images/TessaGeleRugzak.jpg";
+import colabBannerImage from "../../../public/images/KanoBirdView.jpeg";
 
 const CollabBanner = () => {
   return (
     <>
       <div
         className="CollabPageBanner"
-        style={{ position: "relative", height: "100vh" }}
+        style={{ position: "relative", height: "75vh" }}
       >
         <Navbar />
 
@@ -19,19 +20,19 @@ const CollabBanner = () => {
             top: 0,
             left: 0,
             width: "100%",
-            height: "100vh",
+            height: "75vh",
             zIndex: -1,
           }}
         >
           <Image
-            src={carrouselThree}
+            src={colabBannerImage}
             layout="fill"
             objectFit="cover"
             alt="Banner"
           />
         </div>
-        <div className="CollabPageBannerContent">
-          <h1 className="CollabTitle">This is a Collabpage</h1>
+        <div className="collabTitleContainer">
+          <h1 className="CollabTitle">Over Reisnood</h1>
         </div>
       </div>
     </>

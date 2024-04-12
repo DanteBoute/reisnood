@@ -1,0 +1,13 @@
+.CollabTitle{
+    display: flex;
+    color: white;
+    text-align: center;
+    font-size: 75px;
+    font-weight: 700;
+}
+.collabTitleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}

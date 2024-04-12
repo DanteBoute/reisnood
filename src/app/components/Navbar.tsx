@@ -23,12 +23,12 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link href="/uniekeAccomodaties" className="nav-link ">
+              <Link href="/samenwerken" className="nav-link ">
                 Samenwerken
               </Link>
             </li>
             <li>
-              <Link href="/uniekeAccomodaties" className="nav-link ">
+              <Link href="/contact" className="nav-link ">
                 Contact
               </Link>
             </li>
