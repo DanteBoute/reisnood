@@ -1,10 +1,10 @@
 import React from "react";
 import "./BlogIntro.css";
-import carrouselOne from "../../../public/images/Canoe trip edits - 6 van 8.jpeg";
-import carrouselTwo from "../../../public/images/lightroom italie 2023 - 1 van 1.jpeg";
-import carrouselThree from "../../../public/images/kseniia-jin-n5f0INq5uKI-unsplash.jpg";
-import carrouselFour from "../../../public/images/IMG_1190.jpg";
-import carrouselFive from "../../../public/images/IMG_1974 kopie 5.png";
+import carrouselOne from "../../../public/images/KanoBirdView.jpeg";
+import carrouselTwo from "../../../public/images/TessaGekleurdeHuizen.jpeg";
+import carrouselThree from "../../../public/images/Petra.jpg";
+import carrouselFour from "../../../public/images/TessaGeleRugzak.jpg";
+import carrouselFive from "../../../public/images/TessaRodeJas.png";
 
 const BlogIntro = () => {
   return (
@@ -60,12 +60,12 @@ const BlogIntro = () => {
           <div className="blogArticleImageSetVertical">
             <img
               className="blogPageImageVertical shadow-2xl"
-              src={carrouselOne.src}
+              src={carrouselThree.src}
               alt="Carrousel One"
             />
             <img
               className="blogPageImageVertical shadow-2xl"
-              src={carrouselTwo.src}
+              src={carrouselFour.src}
               alt="Carrousel Two"
             />
           </div>
@@ -84,7 +84,7 @@ const BlogIntro = () => {
             </p>
           </div>
           <div className="nextTripsSection bg-blue-50">
-            <h2 className="nextTripsTitle">Volgende Trips</h2>
+            <h2 className="nextTripsTitle">Meer Tips</h2>
             <div className="nextTripImages bg-blue-50">
               <img
                 className="nextTripImage image-container max-w-sm rounded-lg shadow-2xl"

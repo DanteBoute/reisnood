@@ -6,7 +6,9 @@ const Navbar = () => {
     <>
       <div className="navbar">
         <div className="flex-1">
-          <a className="btn btn-ghost text-xl nav-link">Reisnood.be</a>
+          <Link href="/" className="btn btn-ghost text-xl nav-link">
+            Reisnood.be
+          </Link>
         </div>
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1">

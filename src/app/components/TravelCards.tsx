@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import "./TravelCards.css";
-import Italy from "../../../public/images/Canoe trip edits - 1 van 1.jpeg";
-import carrouselOne from "../../../public/images/Canoe trip edits - 6 van 8.jpeg";
-import carrouselTwo from "../../../public/images/lightroom italie 2023 - 1 van 1.jpeg";
-import carrouselThree from "../../../public/images/kseniia-jin-n5f0INq5uKI-unsplash.jpg";
+import Italy from "../../../public/images/TessaKano.jpeg";
+import carrouselOne from "../../../public/images/KanoBirdView.jpeg";
+import carrouselTwo from "../../../public/images/TessaGekleurdeHuizen.jpeg";
+import carrouselThree from "../../../public/images/Petra.jpg";
 
 const TravelCards = () => {
   return (
