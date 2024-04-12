@@ -3,6 +3,7 @@ import Image from "next/image";
 import "./BlogBanner.css";
 import Navbar from "./Navbar";
 import bannerImage from "../../../public/images/lightroom italie 2023 - 1 van 1.jpeg";
+import carrouselThree from "../../../public/images/kseniia-jin-n5f0INq5uKI-unsplash.jpg";
 
 const BlogBanner = () => {
   return (
@@ -24,7 +25,7 @@ const BlogBanner = () => {
           }}
         >
           <Image
-            src={bannerImage}
+            src={carrouselThree}
             layout="fill"
             objectFit="cover"
             alt="Banner"
