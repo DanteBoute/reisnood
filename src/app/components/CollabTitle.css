@@ -1,0 +1,19 @@
+.collabTitleContainer{
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    padding-top: 40px;
+    margin-top: 20px;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+  }
+  .collabSubtitle{
+    text-align: center;
+    width: 100%;
+    font-size: medium;
+    color: brown;
+}
+.collabTitleDivider {
+    text-align: center;
+    font-size: x-large; 
+}

@@ -21,12 +21,12 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link href="/uniekeAccomodaties" className="nav-link-home ">
+              <Link href="/samenwerken" className="nav-link-home ">
                 Samenwerken
               </Link>
             </li>
             <li>
-              <Link href="/uniekeAccomodaties" className="nav-link-home ">
+              <Link href="/contact" className="nav-link-home ">
                 Contact
               </Link>
             </li>

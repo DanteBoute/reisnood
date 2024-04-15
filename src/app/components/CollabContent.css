@@ -1,0 +1,23 @@
+.collabContent {
+    min-height: 100vh;
+}
+
+.collabLeftSideContainer {
+    
+}
+.collabText {
+    margin: 100px;
+}
+
+/* right side */
+
+.collabRightSideContainer {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    min-width: 34vw;
+}
+.collabPicture {
+    height: 50%;
+    width: 100%;
+}

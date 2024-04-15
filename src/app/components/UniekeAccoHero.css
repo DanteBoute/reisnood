@@ -1,0 +1,26 @@
+.HeroUniekeAcco {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin-top: 20px;
+  }
+  .HeroUniekeAccoImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+  
+  .HeroText {
+    color: white;
+    font-size: 6vw;
+    
+  }
+  .HeroContent {
+    position: absolute;
+    bottom: 0;
+    left: 0;    
+    margin-left: 40px;
+    margin-bottom: 40px;
+  }

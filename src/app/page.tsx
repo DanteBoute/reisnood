@@ -4,6 +4,8 @@ import Hero from "./components/Hero";
 import bannerImage from "../../public/images/TessaRodeJas.png";
 import TravelCards from "./components/TravelCards";
 import TitelDivider from "./components/TitelDivider";
+import InstagramFeed from "./components/InstagramFeed";
+import UniekeAccoHero from "./components/UniekeAccoHero";
 
 export default function Home() {
   return (
@@ -24,6 +26,8 @@ export default function Home() {
       <Hero />
       <TitelDivider />
       <TravelCards />
+      {/* <InstagramFeed /> */}
+      <UniekeAccoHero />
     </main>
   );
 }
