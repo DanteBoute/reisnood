@@ -1,0 +1,30 @@
+.allCarousels{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    background-color: white;
+}
+.verticalCarousel {
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    
+}
+.carouselTitle{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: large;
+    font-weight: 700;
+    width: 100%;
+}
+.carouselImage{
+    position: relative;
+    overflow: hidden;
+    max-width: 40vw;
+    min-width: 30vw;
+    display: flex;
+    justify-content: center;
+}

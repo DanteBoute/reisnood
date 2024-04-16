@@ -1,22 +1,32 @@
 import React from "react";
+import Image from "next/image";
 import "./ReistipsCards.css";
+import Carousel1 from "../../../public/images/ZwartStrandTessa.jpg";
+import Carousel2 from "../../../public/images/TessaKano.jpeg";
+import Carousel3 from "../../../public/images/TessaGeleRugzak.jpg";
+import Carousel4 from "../../../public/images/TessaRodeJas.png";
+import Carousel5 from "../../../public/images/KanoBirdView.jpeg";
+import Carousel6 from "../../../public/images/Petra.jpg";
 
 const ReistipsCards = () => {
   return (
     <>
-      {" "}
-      <div className="card lg:card-side bg-base-100 shadow-xl">
-        <figure>
-          <img
-            src="https://daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.jpg"
-            alt="Album"
-          />
-        </figure>
-        <div className="card-body">
-          <h2 className="card-title">New album is released!</h2>
-          <p>Click the button to listen on Spotiwhy app.</p>
-          <div className="card-actions justify-end">
-            <button className="btn btn-primary">Listen</button>
+      <div className="allCarousels">
+        <div className="verticalCarousel">
+          <h1 className="carouselTitle">Zweden</h1>
+          <div className=" h-96 carousel carousel-vertical rounded-box">
+            <div className="carouselImage image-container carousel-item h-full">
+              <img src={Carousel1.src} />
+            </div>
+            <div className="carouselImage image-container carousel-item h-full">
+              <img src={Carousel2.src} />
+            </div>
+            <div className="carouselImage image-container carousel-item h-full">
+              <img src={Carousel3.src} />
+            </div>
+            <div className="carouselImage image-container carousel-item h-full">
+              <img src={Carousel4.src} />
+            </div>
           </div>
         </div>
       </div>

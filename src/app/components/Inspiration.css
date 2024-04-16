@@ -1,0 +1,52 @@
+.inspirationCard {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    max-width: 18%;
+    min-width: 14%;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.inspirationCard:hover::before {
+    opacity: 0 !important;
+}
+.inspirationCardsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+.inspirationCard:hover {
+        transform: scale(1.05);
+        opacity: 1;
+        cursor: pointer;
+        opacity: 1 !important;
+}    
+.cardTitle{
+position: absolute;
+font-weight: 700;
+bottom: 50%;
+font-size: x-large;
+}
+.card-body{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    object-fit: cover;
+}
+.cardIcon {
+    min-width: 30px;
+    height: auto;
+}
+.cardCollection {
+    position: absolute;
+    border-radius: 20%;
+    padding: 10px;
+    bottom: 0;
+    margin-bottom: 20px;
+}
