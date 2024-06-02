@@ -10,15 +10,15 @@ const Hero = () => {
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img
           src={carrouselOne.src}
-          className="image-container max-w-sm rounded-lg shadow-2xl"
+          className="heroImageContainer image-container max-w-sm rounded-lg shadow-2xl"
         />
         <img
           src={carrouselTwo.src}
-          className="image-container max-w-sm rounded-lg shadow-2xl"
+          className="heroImageContainer image-container max-w-sm rounded-lg shadow-2xl"
         />
         <img
           src={carrouselThree.src}
-          className="image-container max-w-sm rounded-lg shadow-2xl"
+          className="heroImageContainer image-container max-w-sm rounded-lg shadow-2xl"
         />
         <div className="mr-5">
           <h1 className="text-5xl font-bold text-white">

@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import "./CollabBanner.css";
-import Navbar from "./Navbar";
-import carrouselThree from "../../../public/images/TessaGeleRugzak.jpg";
-import colabBannerImage from "../../../public/images/KanoBirdView.jpeg";
+import NavbarHome from "./NavbarHome";
+import carrouselThree from "../../../public/images/TessaZwartStrandMutsWit.png";
+import colabBannerImage from "../../../public/images/ZwartStrandTessa.jpg";
 
 const CollabBanner = () => {
   return (
@@ -12,7 +12,7 @@ const CollabBanner = () => {
         className="CollabPageBanner"
         style={{ position: "relative", height: "75vh" }}
       >
-        <Navbar />
+        <NavbarHome />
 
         <div
           style={{
@@ -25,7 +25,7 @@ const CollabBanner = () => {
           }}
         >
           <Image
-            src={colabBannerImage}
+            src={carrouselThree}
             layout="fill"
             objectFit="cover"
             alt="Banner"

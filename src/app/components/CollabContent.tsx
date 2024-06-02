@@ -1,7 +1,7 @@
 import React from "react";
 import "./CollabContent.css";
-import CollabPicture from "../../../public/images/ZwartStrandTessa.jpg";
-import CollabPicture2 from "../../../public/images/TessaKano.jpeg";
+import Image from "next/image";
+import CollabPicture from "../../../public/images/TessaSitWaterfall.png";
 
 const CollabContent = () => {
   return (
@@ -28,15 +28,10 @@ const CollabContent = () => {
           </p>
         </div>
         <div className="collabRightSideContainer col-start-3">
-          <img
-            className="collabPicture shadow-2xl"
-            src={CollabPicture.src}
-            alt="Carrousel Two"
-          />
-          <img
-            className="collabPicture shadow-2xl"
-            src={CollabPicture2.src}
-            alt="Carrousel Two"
+          <Image
+            src={CollabPicture}
+            alt="Ijsland"
+            className="travelcardImage"
           />
         </div>
       </div>

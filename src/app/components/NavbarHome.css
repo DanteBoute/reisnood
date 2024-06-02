@@ -1,10 +1,10 @@
 .nav-link-home {
-    color: white; /* Change the color to your desired color */
-    text-decoration: none; /* Remove underline */
+    color: white;
+    text-decoration: none;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .nav-link-home:hover {
-    color: white; /* Change the color on hover */
+    background: none;
     transform: scale(1.1);
 }

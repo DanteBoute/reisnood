@@ -27,9 +27,13 @@
 }
 
 .travelcardsContainer {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    z-index: 1;
+    margin-bottom: 30px;
+
 }
 .travelcardImage {
     border-radius: 2%;

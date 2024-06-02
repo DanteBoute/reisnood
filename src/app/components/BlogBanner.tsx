@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import "./BlogBanner.css";
-import Navbar from "./Navbar";
+import NavbarHome from "./NavbarHome";
 import carrouselThree from "../../../public/images/Petra.jpg";
 
 const BlogBanner = () => {
@@ -11,7 +11,7 @@ const BlogBanner = () => {
         className="blogPageBanner"
         style={{ position: "relative", height: "100vh" }}
       >
-        <Navbar />
+        <NavbarHome />
 
         <div
           style={{
